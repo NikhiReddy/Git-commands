@@ -1,0 +1,42 @@
+First go to the folder and open git bash
+
+Then provide the git repository to clone by the command
+Git clone <https://github.com/abhijitsingamaneni/devopsclass.git>
+
+
+Go to the desired repository by 
+Cd <repo_name>
+
+Then pull everything from there by
+Git pull
+
+
+Then create a branch in that repo by
+git checkout -b nikhila
+
+
+Create a directory there
+Mkdir nikhi
+
+Then go into that directory and create some files or copy paste the files you want to push
+
+Then come out of the repository by
+Cd ..
+
+Then add the files to stage by
+Git add nikhi/fie1.txt
+Git add nikhi/file2.txt
+
+And so on add all
+
+Then commit the changes
+Git commit -m "Message"
+
+Then push into repo
+Git push
+
+
+Now go to github account :
+Create a new pull request by trying to push into master from your branch and then assign reviewers or assignees there.
+
+
